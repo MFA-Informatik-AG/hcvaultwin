@@ -10,6 +10,7 @@ The Dockerfile downloads and installs OpenSSL and Hashicorp Vault from Chocolatl
 
 Use:
 
-docker run -d -p 8200:8200 --cap-add=IPC_LOCK -v c:\vault\logs:c:\vault\logs:rw -v c:\vault\file:c:\vault\file:rw -v c:\vault\config:c:\vault\config:rw hckv
+docker run -d -p 8200:8200 --cap-add=IPC_LOCK --name hckv -v c:\vault\logs:c:\vault\logs:rw -v c:\vault\file:c:\vault\file:rw -v c:\vault\config:c:\vault\config:rw aeschneider/hcvaultwin
 
 Connect with your browser to https://localhost:8200 to access Vault.
+
