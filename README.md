@@ -33,5 +33,5 @@ You need to provide a vault.json yourself in the mapped config folder. The vault
     }
 
 ## Accessing Vault
-Connect with your browser to https://localhost:8200 to access Vault.
+Connect with your browser to https://localhost:8200 to access Vault if  TLS is enabled otherwise use http://localhost:8200
 
