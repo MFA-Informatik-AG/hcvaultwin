@@ -30,7 +30,7 @@ You need to provide a vault.json yourself in the mapped config folder. The vault
     		}
     	},
     	"ui": true
-    }`
+    }
 
 ## Accessing Vault
 Connect with your browser to https://localhost:8200 to access Vault.
